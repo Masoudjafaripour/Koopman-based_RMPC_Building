@@ -146,6 +146,7 @@ RMSE_2 = sqrt(mean(E2_2));
 
 RMSE_avg = (RMSE_1 + RMSE_2)/2
 
+
 % figure % prediction
 % plot([0:Nsim]*deltaT,x_true(2,:),'linewidth',lw); hold on
 % plot([0:Nsim]*deltaT,x_koop(2,:), '--r','linewidth',lw)
