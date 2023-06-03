@@ -2,6 +2,7 @@
 % lifting section adopted and modied -- originally by Milan Korda and Igor Mezic in  https://github.com/MilanKorda/KoopmanMPC
 %
 %% RC Circut
+
 clc; clear all; close all;
 rng(2141444) % Masoud: for randomness?
 
