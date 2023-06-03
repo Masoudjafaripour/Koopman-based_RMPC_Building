@@ -2,7 +2,6 @@
 % lifting section adopted and modied -- originally by Milan Korda and Igor Mezic in  https://github.com/MilanKorda/KoopmanMPC
 %
 %% RC Circut
-
 clc; clear all; close all;
 rng(2141444) % Masoud: for randomness?
 
@@ -145,6 +144,7 @@ E2_2 = (x_true(2,:) - x_koop(2,:)).^2;
 RMSE_2 = sqrt(mean(E2_2));
 
 RMSE_avg = (RMSE_1 + RMSE_2)/2
+
 
 
 % figure % prediction
